@@ -53,4 +53,6 @@ export default function MyBookings() {
     ): (
         <Loading />
     )
+
 }
+

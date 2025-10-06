@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 z-50 w-full flex items-center justify-between px-6 md:px-16 lg:px-36 py-5">
       <Link to="/" className="max-md:flex-1">
-        <img src={logo} alt="Logo" className="w-24 h-auto" />
+        <img src={logo} alt="Logo" className="w-20 h-20" />
       </Link>
 
       <div className={`${isOpen ? "flex" : "hidden"} max-md:fixed max-md:top-0 max-md:left-0 max-md:w-full max-md:h-screen max-md:bg-black/90 max-md:flex-col max-md:items-center max-md:justify-center md:flex md:flex-row gap-8 font-bold leading-tight bg-gradient-to-r from-black to-gray-700 bg-clip-text text-transparent transition-all duration-300`}>

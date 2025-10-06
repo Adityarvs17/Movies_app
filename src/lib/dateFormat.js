@@ -1,3 +1,4 @@
+
 export const dateFormat = (date) =>{
     return new Date(date).toLocaleDateString('en-US',{
         weekday: 'short',
@@ -7,4 +8,5 @@ export const dateFormat = (date) =>{
         minute:'numeric'
     }
     )
+
 }
