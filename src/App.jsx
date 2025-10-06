@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/my-bookings" element={<MyBookings />} />
         <Route path="/movie/:id" element={<MovieDetails />} />
         <Route path="/favourites" element={<Favourites />} />
-        <Route path="/seat-layout" element={<SeatLayout />} />
+        <Route path="/movie/:id/:date" element={<SeatLayout />} />
       </Routes>
        <Toaster position="top-center" reverseOrder={false} />
       {!isAdmin && <Footer />}
